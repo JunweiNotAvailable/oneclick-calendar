@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+.JwNavLbleSCtOolaDdiNg {
+  box-sizing: border-box;
+  width: 280px;
+  height: 320px;
+  padding: 8px;
+  background: #fff;
+  box-shadow: 0 12px 38px 3px rgba(0,0,0,.1), 0 3px 46px 8px rgba(0,0,0,.12), 0 5px 15px -7px rgba(0,0,0,.16);
+  border-radius: .3rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  z-index: 9000;
+}
+.JwNavLbleSCtOolaDdiNg.long {
+  max-height: 100vh;
+}
+.SCtOolaDdiNgTiTLe {
+  color: #646464;
+}
+.SCtOolaDdiNglIsT {
+  flex: 1;
+  margin-top: 4px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+.SCtOolaDdiNglIsT.short {
+  max-height: 200px;
+}
+.SCtOolaDdiNglIsT::-webkit-scrollbar {
+  width: 0;
+}
+.SCtOolaDdiNglIsToPTiOn {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+  padding: 4px;
+  border-radius: .3rem;
+  font-size: 13px;
+  cursor: pointer;
+  position: relative;
+}
+.SCtOolaDdiNglIsToPTiOn:hover {
+  background: #f4f5f6;
+}
+.oPTiOncOLoRcoNTaINer {
+  width: 24px;
+  display: flex;
+  justify-content: center;
+}
+.oPTiOncOLoR {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+.opTIoNTItLe {
+  flex: 1;
+  margin-left: 3px;
+}
+.opTIoNTExTBTn {
+  opacity: 0;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  height: calc(100% - 6px);
+  color: #a0a0a0;
+  border-radius: .3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eceded;
+  padding: 0 8px;
+}
+.SCtOolaDdiNglIsToPTiOn:hover .opTIoNTExTBTn {
+  opacity: 1;
+}
+.opTIoNTExTBTn:hover {
+  background: #f4f5f6;
+}
+#SCtOolaDdiNgTExTArEa {
+  resize: none;
+  outline: none;
+  background: #ececed;
+  padding: .3rem;
+  border: none;
+  font-family: 'Roboto' sans-serif;
+  margin-top: 8px;
+  height: 84px;
+}
+#SCtOolaDdiNgTExTArEa::-webkit-scrollbar {
+  width: 0;
+}
+.SCtOolaDdiNgTExTArEaSAve {
+  width: 100%;
+  background: #4285F4;
+  color: #fff;
+  font-size: 12px;
+  border-radius: .3rem;
+  padding: 8px 0;
+  margin-top: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+/* alert */
+.easy-calendar-alert {
+  border-radius: 3rem;
+  padding: 12px 24px;
+  font-size: 16px;
+  background: #000000ad;
+  color: #fff;
+  position: fixed;
+  animation: fade-up 1.2s ease-in-out;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10001;
+}
+@keyframes fade-up {
+  0% {
+    bottom: 70px;
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    bottom: 140px;
+    opacity: 0;
+  }
+}
