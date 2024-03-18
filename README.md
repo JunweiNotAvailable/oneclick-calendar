@@ -6,14 +6,11 @@ This is a Chrome extension works with Google Calendar. A tool shows up when **ad
 
 You can create or modify an event with a ***single click***.
 
-1. Add event
+E.g. Add event
 
-<img src="https://raw.githubusercontent.com/JunweiNotAvailable/easy-calendar/master/video/Create.gif" alt="drawing" width="640"/>
+<img src="https://raw.githubusercontent.com/JunweiNotAvailable/oneclick-calendar/master/video/Create.gif" alt="drawing" width="640"/>
 
-2. Add text to title
-
-<img src="https://raw.githubusercontent.com/JunweiNotAvailable/easy-calendar/master/video/Text.gif" alt="drawing" width="640"/>
-
-3. Add description to existing event
-
-<img src="https://raw.githubusercontent.com/JunweiNotAvailable/easy-calendar/master/video/Modify.gif" alt="drawing" width="640"/>
+## Quick start
+1. Download the project on you computer `git clone https://github.com/junweinotavailable/oneclick-calendar`
+2. Go to Chrome extension (chrome://extensions/) and turn on the developer mode
+3. Upload the downloaded folder
